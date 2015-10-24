@@ -1,23 +1,77 @@
 {
-  "title": "Xhacker’s Status Board",
+  "title": "JHT’s Status Board",
   "tasks": [
     {
       "type": "http",
-      "id": "xhacker",
-      "title": "xhacker.im",
-      "address": "http://xhacker.im"
+      "id": "Home-Router",
+      "title": "Home-Router",
+      "address": "http://home.jht.io:7281"
+    },    
+    {
+      "type": "http",
+      "id": "Blog",
+      "title": "Blog",
+      "address": "http://blog.jht.io"
     },
     {
       "type": "http",
-      "id": "not_exist",
-      "title": "not.exist",
-      "address": "http://not.exist"
+      "id": "Raw",
+      "title": "Raw",
+      "address": "http://raw.jht.io"
+    },
+    {
+      "type": "http",
+      "id": "Image Hosting",
+      "title": "Image Hosting",
+      "address": "http://img.jht.io"
+    },    
+    {
+      "type": "http",
+      "id": "Note",
+      "title": "Note",
+      "address": "http://note.jht.io"
+    },
+    {
+      "type": "http",
+      "id": "2048",
+      "title": "2048",
+      "address": "http://2048.jht.io"
+    },
+    {
+      "type": "http",
+      "id": "YAAW",
+      "title": "YAAW",
+      "address": "http://yaaw.jht.io"
     },
     {
       "type": "shell",
-      "id": "vps",
-      "title": "VPS",
-      "command": "ping -c 1 us-east-1.xhacker.im"
+      "id": "Gh-Pages",
+      "title": "Gh-Pages",
+      "command": "ping -c 1 gh.jht.io"
+    },
+    {
+      "type": "shell",
+      "id": "Ghs",
+      "title": "Ghs",
+      "command": "ping -c 1 ghs.jht.io"
+    },
+    {
+      "type": "shell",
+      "id": "CDN-Cloudflare",
+      "title": "CDN-Cloudflare",
+      "command": "ping -c 1 yjs.jht.io"
+    },
+    {
+      "type": "shell",
+      "id": "CDN-Qiniu",
+      "title": "CDN-Qiniu",
+      "command": "ping -c 1 dn-jhtao.qbox.me"
+    },
+    {
+      "type": "shell",
+      "id": "CDN-Incapsula",
+      "title": "CDN-Incapsula",
+      "command": "ping -c 1 incapsula.jht.io"
     }
   ]
 }
