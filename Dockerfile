@@ -11,6 +11,6 @@ ADD config.json /app/config.json
 ADD requirements.txt /app/requirements.txt
 RUN pip install -r /app/requirements.txt
 
-EXPOSE 5000
+EXPOSE 80
 WORKDIR /app
 CMD ["python", "hello.py"]
