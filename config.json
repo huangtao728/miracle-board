@@ -15,21 +15,39 @@
     },
     {
       "type": "http",
+      "id": "Image Hosting",
+      "title": "Image Hosting",
+      "address": "http://img.jht.io"
+    }, 
+    {
+      "type": "http",
+      "id": "Note",
+      "title": "Note",
+      "address": "http://note.jht.io"
+    },
+    {
+      "type": "shell",
+      "id": "Gitbook",
+      "title": "Gitbook",
+      "command": "ping -c 1 book.jht.io"
+    },
+    {
+      "type": "http",
       "id": "Raw",
       "title": "Raw",
       "address": "http://raw.jht.io"
     },
     {
       "type": "http",
-      "id": "Image Hosting",
-      "title": "Image Hosting",
-      "address": "http://img.jht.io"
-    },    
+      "id": "CDN",
+      "title": "CDN",
+      "address": "http://cdn.jht.io"
+    },
     {
-      "type": "http",
-      "id": "Note",
-      "title": "Note",
-      "address": "http://note.jht.io"
+      "type": "shell",
+      "id": "Qiniu",
+      "title": "Qiniu",
+      "command": "ping -c 1 dn-jhtao.qbox.me"
     },
     {
       "type": "http",
@@ -42,30 +60,6 @@
       "id": "YAAW",
       "title": "YAAW",
       "address": "http://yaaw.jht.io"
-    },
-    {
-      "type": "shell",
-      "id": "Qiniu",
-      "title": "Qiniu",
-      "command": "ping -c 1 dn-jhtao.qbox.me"
-    },
-    {
-      "type": "shell",
-      "id": "Gh-Pages",
-      "title": "Gh-Pages",
-      "command": "ping -c 1 gh.jht.io"
-    },
-    {
-      "type": "shell",
-      "id": "Gitbook",
-      "title": "Gitbook",
-      "command": "ping -c 1 book.jht.io"
-    },
-    {
-      "type": "shell",
-      "id": "Ghs",
-      "title": "Ghs",
-      "command": "ping -c 1 ghs.jht.io"
     }
   ]
 }
