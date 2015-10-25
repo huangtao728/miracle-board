@@ -45,33 +45,27 @@
     },
     {
       "type": "shell",
+      "id": "Qiniu",
+      "title": "Qiniu",
+      "command": "ping -c 1 dn-jhtao.qbox.me"
+    },
+    {
+      "type": "shell",
       "id": "Gh-Pages",
       "title": "Gh-Pages",
       "command": "ping -c 1 gh.jht.io"
     },
     {
       "type": "shell",
+      "id": "Gitbook",
+      "title": "Gitbook",
+      "command": "ping -c 1 book.jht.io"
+    },
+    {
+      "type": "shell",
       "id": "Ghs",
       "title": "Ghs",
       "command": "ping -c 1 ghs.jht.io"
-    },
-    {
-      "type": "shell",
-      "id": "CDN-Cloudflare",
-      "title": "CDN-Cloudflare",
-      "command": "ping -c 1 yjs.jht.io"
-    },
-    {
-      "type": "shell",
-      "id": "CDN-Qiniu",
-      "title": "CDN-Qiniu",
-      "command": "ping -c 1 dn-jhtao.qbox.me"
-    },
-    {
-      "type": "shell",
-      "id": "CDN-Incapsula",
-      "title": "CDN-Incapsula",
-      "command": "ping -c 1 incapsula.jht.io"
     }
   ]
 }
